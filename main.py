@@ -47,7 +47,7 @@ def mod(a1,a2):
     e.g., mod(5,3) = 2, mod(15,5) = 0, mod(15,4) = 3
     '''
     toReturn = 0
-    # add your code here
+    toReturn = a % b
     return toReturn
 
 def exp(a1,a2):
@@ -55,7 +55,7 @@ def exp(a1,a2):
     Returns the a1 to the a2 power (exponent)
     '''
     toReturn = 0
-    # add your code here
+    toReturn = a**b
     return toReturn
 
 def orderOperations(a1,a2,a3):
@@ -64,7 +64,7 @@ def orderOperations(a1,a2,a3):
     i.e., changes normal order or operations 
     '''
     toReturn = 0
-    # add your code here
+    toReturn = (a1 + a2) * a3
     return toReturn
 
 def whichType(t):
@@ -72,7 +72,7 @@ def whichType(t):
     Returns the python data type of t
     '''
     toReturn = ''
-    # add your code here
+    toReturn = 
     return toReturn
 
 def convertInt(i):
@@ -80,7 +80,7 @@ def convertInt(i):
     Converts i to an integer
     '''
     toReturn = 0
-    # add your code here
+    toReturn = int(i)
     return toReturn
 
 def convertFloat(f):
